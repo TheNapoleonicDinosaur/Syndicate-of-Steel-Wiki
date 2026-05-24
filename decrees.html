@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Decrees — Syndicate of Steel Wiki</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto+Condensed:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  .decree-block {
+    background: var(--dark2);
+    border: 1px solid var(--dark4);
+    border-left: 5px solid var(--red);
+    margin-bottom: 16px;
+    padding: 0;
+  }
+  .decree-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--dark4);
+    background: var(--dark3);
+    gap: 12px;
+  }
+  .decree-number {
+    font-family: var(--font-display);
+    font-size: 11px;
+    color: var(--red);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+  .decree-title {
+    font-family: var(--font-display);
+    font-size: 15px;
+    color: var(--white);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    flex: 1;
+  }
+  .decree-status {
+    font-family: var(--font-display);
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    border: 1px solid #44cc44;
+    color: #44cc44;
+    white-space: nowrap;
+  }
+  .decree-body {
+    padding: 14px 16px;
+    font-size: 14px;
+    color: var(--gray4);
+    line-height: 1.8;
+  }
+  .decree-body strong { color: var(--white); }
+  .decree-footer {
+    padding: 8px 16px;
+    border-top: 1px solid var(--dark4);
+    font-size: 11px;
+    color: var(--gray2);
+    font-family: var(--font-display);
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .punishment-table { width: 100%; border-collapse: collapse; margin-top: 8px; }
+  .punishment-table th {
+    background: var(--dark3);
+    border: 1px solid var(--dark4);
+    padding: 8px 12px;
+    text-align: left;
+    font-family: var(--font-display);
+    font-size: 11px;
+    color: var(--red);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  .punishment-table td {
+    border: 1px solid var(--dark4);
+    padding: 8px 12px;
+    color: var(--gray4);
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<header class="site-header">
+  <div class="topbar"><span>THE OFFICIAL KNOWLEDGE BUREAU OF THE SYNDICATE OF STEEL</span><span>ESTABLISHED BY THE COLLECTIVE</span></div>
+  <div class="branding"><div class="emblem">SoS</div><div class="title-block"><h1>Syndicate of Steel</h1><p class="subtitle">Faction Wiki · Industrial Collective · Minecraft</p></div></div>
+  <div class="search-bar"><input type="text" placeholder="Search the archives..."><button>SEARCH</button></div>
+  <nav class="main-nav">
+    <a href="index.html">Main Page</a>
+    <a href="members.html">Members</a>
+    <a href="territory.html">Territory</a>
+    <a href="alliances.html">Alliances</a>
+    <a href="wars.html">Wars</a>
+    <a href="history.html">History</a>
+    <a href="industry.html">Industry</a>
+    <a href="rules.html">Rules</a>
+    <a href="decrees.html" class="active">Decrees</a>
+  </nav>
+</header>
+
+<div class="layout">
+  <main class="main-content">
+    <div class="page-header">
+      <h2>Council Decrees</h2>
+      <p class="page-sub">Official Laws and Mandates of the Syndicate of Steel</p>
+    </div>
+
+    <div class="welcome-banner">
+      <h2>Binding on All Members</h2>
+      <p>The following decrees represent the official body of law governing the Syndicate of Steel. All decrees are issued by the Commissar General and ratified by the Council. Ignorance of a decree is not a valid defence before the collective.</p>
+    </div>
+
+    <section>
+      <h3 class="section-title">Active Decrees</h3>
+
+      <div class="decree-block">
+        <div class="decree-header">
+          <span class="decree-number">Decree 001</span>
+          <span class="decree-title">Loyalty to the Collective</span>
+          <span class="decree-status">Active</span>
+        </div>
+        <div class="decree-body">
+          All members of the Syndicate of Steel owe their <strong>primary loyalty to the SoS</strong> above all other organisations, factions, or outside interests. No member may place the interests of an external party above those of the Syndicate.
+        </div>
+        <div class="decree-footer">
+          <span>Issued by: MinisterOfCoal, Commissar General</span>
+          <span>Category: Loyalty</span>
+        </div>
+      </div>
+
+      <div class="decree-block">
+        <div class="decree-header">
+          <span class="decree-number">Decree 002</span>
+          <span class="decree-title">Prohibition of Unauthorised Griefing</span>
+          <span class="decree-status">Active</span>
+        </div>
+        <div class="decree-body">
+          <strong>Griefing allied or neutral factions</strong> without explicit authorisation from an officer of the Syndicate is strictly prohibited. Any act of unprovoked destruction against a non-hostile party must be approved through the proper chain of command before action is taken.
+        </div>
+        <div class="decree-footer">
+          <span>Issued by: MinisterOfCoal, Commissar General</span>
+          <span>Category: Conduct</span>
+        </div>
+      </div>
+
+      <div class="decree-block">
+        <div class="decree-header">
+          <span class="decree-number">Decree 003</span>
+          <span class="decree-title">Protection of Strategic Information</span>
+          <span class="decree-status">Active</span>
+        </div>
+        <div class="decree-body">
+          <strong>Spying, leaking base coordinates, or sharing any strategic information</strong> with enemy or unaligned parties constitutes an act of treason against the Syndicate of Steel. This offence carries the maximum penalty of immediate and permanent removal from the SoS, with notification to all allied organisations.
+        </div>
+        <div class="decree-footer">
+          <span>Issued by: MinisterOfCoal, Commissar General</span>
+          <span>Category: Security</span>
+        </div>
+      </div>
+
+      <div class="decree-block">
+        <div class="decree-header">
+          <span class="decree-number">Decree 004</span>
+          <span class="decree-title">Authorisation of SoS Branded Builds</span>
+          <span class="decree-status">Active</span>
+        </div>
+        <div class="decree-body">
+          All <strong>major builds representing or branded under the Syndicate of Steel</strong> must receive approval from an officer of the Syndicate prior to the commencement of construction. This decree exists to maintain the integrity and standards of SoS infrastructure across all servers.
+        </div>
+        <div class="decree-footer">
+          <span>Issued by: MinisterOfCoal, Commissar General</span>
+          <span>Category: Infrastructure</span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="section-title">Violations and Punishments</h3>
+      <div class="prose-block">
+        <p>Violations of any active decree are assessed on a case-by-case basis by the Commissar General and the Council. Punishments are scaled to the severity and intent of the violation.</p>
+        <table class="punishment-table">
+          <thead>
+            <tr><th>Severity</th><th>Examples</th><th>Punishment</th></tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><span class="badge badge-neutral">Minor</span></td>
+              <td>Unauthorised small-scale build, minor conduct breach</td>
+              <td>Formal warning issued by a Council Officer</td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-war">Moderate</span></td>
+              <td>Repeated minor violations, unauthorised griefing</td>
+              <td>Demotion of one or more ranks</td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-enemy">Severe</span></td>
+              <td>Theft, insubordination, repeated moderate violations</td>
+              <td>Full demotion or expulsion from the SoS</td>
+            </tr>
+            <tr>
+              <td><span class="badge badge-classified">Treason</span></td>
+              <td>Leaking coordinates, spying, betrayal of the collective</td>
+              <td>Immediate expulsion and blacklisting across all allied factions</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h3 class="section-title">Repealed Decrees</h3>
+      <div class="prose-block">
+        <p>No decrees have been repealed at this time. Repealed decrees will be archived here for the historical record of the collective.</p>
+      </div>
+    </section>
+
+  </main>
+
+  <aside class="sidebar">
+    <div class="stat-block">
+      <div class="stat-header">Decree Stats</div>
+      <div class="stat-row"><span class="stat-label">Active Decrees</span><span class="stat-val" style="color:#44cc44;">4</span></div>
+      <div class="stat-row"><span class="stat-label">Repealed</span><span class="stat-val" style="color:#888;">0</span></div>
+      <div class="stat-row"><span class="stat-label">Issuing Authority</span><span class="stat-val">Commissar General</span></div>
+    </div>
+    <div class="stat-block">
+      <div class="stat-header">Categories</div>
+      <div class="stat-row"><span class="stat-label">Loyalty</span><span class="stat-val">1</span></div>
+      <div class="stat-row"><span class="stat-label">Conduct</span><span class="stat-val">1</span></div>
+      <div class="stat-row"><span class="stat-label">Security</span><span class="stat-val">1</span></div>
+      <div class="stat-row"><span class="stat-label">Infrastructure</span><span class="stat-val">1</span></div>
+    </div>
+    <div class="stat-block">
+      <div class="stat-header">Navigation</div>
+      <div class="stat-row"><a href="rules.html" class="sidebar-link">Rules</a></div>
+      <div class="stat-row"><a href="members.html" class="sidebar-link">Members</a></div>
+      <div class="stat-row"><a href="index.html" class="sidebar-link">Main Page</a></div>
+    </div>
+  </aside>
+</div>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>Syndicate of Steel · Knowledge Bureau · All rights reserved to the Collective</span>
+  </div>
+</footer>
+</body>
+</html>
